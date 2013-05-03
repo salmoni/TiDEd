@@ -7,3 +7,7 @@ Who needs another text editor? Well this ones uses the Scintilla component (much
 I wrote this because at the time, I couldn't get Scintilla on OSX. I hope it's of some use though as of release, it can view files but has niggling little problems and is most definitely a work in progress. It does, however, have promise.
 
 It also has syntax highlighting, line numbers and lots of other things too.
+
+Warnings - on OSX (at least), it needs a 64-bit capable version of wxPython. Get that here (http://wxpython.org/download.php) and aim for the development version (2.9).
+
+I have not tried other platforms yet, hope to check Windows out later today.
