@@ -165,9 +165,9 @@ class PreferencesDialogClass(wx.Dialog):
         self.SetSizer(self.vs)
         self.vs.Add(self.tb, 0, wx.EXPAND)
         self.vs.Add(self.OPanel, 1, wx.EXPAND)
-        self.tb.GetBPArt().SetColour(bp.BP_GRADIENT_COLOR_FROM, wx.Colour(255,255,255,255))
-        self.tb.GetBPArt().SetColour(bp.BP_GRADIENT_COLOR_TO, wx.Colour(255,255,255,255))
-        self.tb.GetBPArt().SetGradientType(bp.BP_GRADIENT_VERTICAL)
+        #self.tb.GetBPArt().SetColour(bp.BP_GRADIENT_COLOR_FROM, wx.Colour(255,255,255,255))
+        #self.tb.GetBPArt().SetColour(bp.BP_GRADIENT_COLOR_TO, wx.Colour(255,255,255,255))
+        #self.tb.GetBPArt().SetGradientType(bp.BP_GRADIENT_VERTICAL)
         self.tb.SetStyle(bp.BP_USE_GRADIENT)
         self.tb.DoLayout()
 
